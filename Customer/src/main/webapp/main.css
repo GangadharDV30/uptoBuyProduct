@@ -1,0 +1,161 @@
+@charset "ISO-8859-1";
+nav
+{
+    background-color: black;
+    padding: 20px 3px 20px 3px;
+   position:fixed;
+    width: 100%;
+    left: -6px;
+    top: -8px;
+ 
+}
+
+nav li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 60px;
+    transition: color .5s;
+    font-size: 25px;
+     
+}
+
+.brand-logo
+{
+   color: cornsilk;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav li,nav ul
+{
+    display: inline;
+}
+
+nav ul
+{
+margin-left: 530px;
+}
+
+.brand-logo
+{
+   margin-left: 65px;
+}
+
+nav li a:hover
+{
+
+color:yellow;   
+}
+.logo{
+	height: 50px;
+	width: 110px;
+	top: 5px;
+	left: 30px;
+	position: relative;
+	
+}
+.logo:hover{
+	color: orange;
+transform: scale(1.1);
+filter: none;}
+
+.a1{
+	
+	top: -10px;
+	left: -530px;
+	position: relative;	
+}
+.a2{
+	
+	top: -10px;
+	left: 220px;
+	position: relative;	
+}
+.a3{
+	
+	top: -10px;
+	left: 200px;
+	position: relative;	
+}
+.a3:hover{
+	color: red;
+transform: scale(1.1);
+filter: none;}
+
+.container {
+	height:40px;
+	position: relative;
+	left: 750px;
+	top: 50px;
+	right: 0;
+	margin: 20px;
+	margin-top: 161px;
+    margin-left: -431px;
+	max-width: 350px;
+	padding: 16px;
+	background-color: transparent;
+	
+}
+table,th,td{
+	border:1px solid black;
+}
+
+table{
+	height:200px;
+	width:250%;
+	border-collapse:collapse;
+}
+
+table,td{
+	text-align:center;
+	font-weight: bold;
+}
+body {
+	height: 100%;
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) , url('MainPageIMG2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.btn
+{
+    font-size: 10px;
+    border: none;
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+
+}
+.btn:hover
+{
+	color: black;
+	background-color: snow;
+transform: scale(1.1);
+filter: none;}
+
+.namepass{
+	height: 40px;
+    width: 100px;
+   margin:10px;
+    transition: transform 1s;
+    filter: grayscale(100%);
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+.namepass:hover
+{
+
+transform: scale(1.1);
+filter: none;
+
+}

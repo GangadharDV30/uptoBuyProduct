@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+.h2{
+	font-size: 50px;
+	left: 520px;
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	text-align: center;
+	position: relative;
+	left: 590px;
+	top: -70px;
+	right: 0;
+	margin: 10px;
+	max-width: 330px;
+	padding: 16px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+	
+}
+
+input[type=text], input[type=password],input[type=email] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus{
+	background-color: #ddd;
+	outline: none;
+}
+.btn {
+	background-color: black;
+	 z-index:3;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.btn:hover {
+	background-color: green;
+	color: black;
+}
+
+.namepass{
+	height: 40px;
+    width: 100px;
+    margin-left: 100px;
+    transition: transform 1s;
+    filter: grayscale(100%);
+}
+
+.namepass:hover
+{
+
+transform: scale(1.1);
+filter: none;
+
+}
+.btn:hover
+{
+transform: scale(1.1);
+filter: none;
+}
+.logo{
+	height: 50px;
+	width: 110px;
+	top: -97px;
+	left: 880px;
+	position: relative;
+	
+}
+.logo1:hover{
+	color: orange;
+transform: scale(1.1);
+filter: none;}
